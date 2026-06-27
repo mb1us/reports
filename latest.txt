@@ -1,0 +1,18 @@
+Daily trading report - 2026-06-27
+P/L: $0.81 | Win rate: 50.0% | Trades: 10
+Wins/Losses/Flat: 5/5/0 | Fees: $1.61
+Best: $5.60 | Worst: -$6.10
+
+Trades:
+1. 00:00 SOL 26JUN270300-00 YES q10 -$6.08 (Settled NO)
+2. 00:15 ETH 26JUN270315-15 YES q20 $4.69 (Settled NO)
+3. 00:15 BTC 26JUN270315-15 YES q10 -$1.60 (Settled NO)
+4. 00:15 BNB 26JUN270315-15 NO q10 $3.30 (Settled NO)
+5. 00:15 BNB 26JUN270315-15 YES q10 -$5.10 (Settled NO)
+6. 00:45 BNB 26JUN270345-45 NO q10 -$6.10 (Settled YES)
+7. 01:00 BTC 26JUN270400-00 NO q10 -$1.60 (Settled YES)
+8. 01:00 BNB 26JUN270400-00 YES q10 $4.70 (Settled YES)
+9. 01:15 BNB 26JUN270415-15 NO q10 $3.00 (Settled NO)
+10. 02:00 BNB 26JUN270500-00 YES q20 $5.60 (Settled YES)
+
+Sanitized public digest: no account names, account ids, bot config, credentials, or raw exchange responses.

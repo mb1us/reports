@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Trading Report - 2026-06-27</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172026;
+      --muted: #5c6870;
+      --line: #d7dde1;
+      --panel: #f7f8f4;
+      --gain: #147349;
+      --loss: #a63b2a;
+      --accent: #1f6f8b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #fbfbf8;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.45;
+    }
+    main { max-width: 1120px; margin: 0 auto; padding: 32px 18px 48px; }
+    header { display: flex; justify-content: space-between; gap: 24px; align-items: flex-end; margin-bottom: 24px; }
+    h1 { margin: 0; font-size: clamp(28px, 4vw, 44px); letter-spacing: 0; }
+    h2 { margin: 34px 0 12px; font-size: 20px; letter-spacing: 0; }
+    .sub { color: var(--muted); font-size: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    .metric { border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 14px; min-height: 92px; }
+    .label { color: var(--muted); font-size: 13px; }
+    .value { font-size: 28px; font-weight: 750; margin-top: 6px; }
+    .gain { color: var(--gain); }
+    .loss { color: var(--loss); }
+    table { width: 100%; border-collapse: collapse; background: white; border: 1px solid var(--line); }
+    th, td { padding: 10px 11px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; background: #f0f4f5; }
+    .num { text-align: right; font-variant-numeric: tabular-nums; }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .note { margin-top: 16px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 760px) {
+      header { display: block; }
+      .grid, .two { grid-template-columns: 1fr; }
+      table { font-size: 13px; }
+      th, td { padding: 8px 7px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Daily Trading Report</h1>
+        <div class="sub">2026-06-27 (America/Los_Angeles)</div>
+      </div>
+      <div class="sub">Generated Jun 27, 2026, 2:01 AM</div>
+    </header>
+
+    <section class="grid" aria-label="Summary metrics">
+      <div class="metric"><div class="label">P/L</div><div class="value gain">$0.81</div></div>
+      <div class="metric"><div class="label">Win rate</div><div class="value ">50.0%</div></div>
+      <div class="metric"><div class="label">Trades</div><div class="value ">10</div></div>
+      <div class="metric"><div class="label">Submitted orders</div><div class="value ">0</div></div>
+      <div class="metric"><div class="label">Wins / Losses / Flat</div><div class="value ">5 / 5 / 0</div></div>
+      <div class="metric"><div class="label">Contracts settled</div><div class="value ">120</div></div>
+      <div class="metric"><div class="label">Best trade</div><div class="value gain">$5.60</div></div>
+      <div class="metric"><div class="label">Worst trade</div><div class="value loss">-$6.10</div></div>
+    </section>
+
+    <section class="two">
+      <div>
+        <h2>By Side</h2>
+        <table>
+    <thead><tr><th>Group</th><th class="num">Trades</th><th class="num">Win rate</th><th class="num">P/L</th></tr></thead>
+    <tbody><tr>
+          <td>YES</td>
+          <td class="num">6</td>
+          <td class="num">50.0%</td>
+          <td class="num gain">$2.21</td>
+        </tr>
+<tr>
+          <td>NO</td>
+          <td class="num">4</td>
+          <td class="num">50.0%</td>
+          <td class="num loss">-$1.40</td>
+        </tr></tbody>
+  </table>
+      </div>
+      <div>
+        <h2>By Outcome</h2>
+        <table>
+    <thead><tr><th>Group</th><th class="num">Trades</th><th class="num">Win rate</th><th class="num">P/L</th></tr></thead>
+    <tbody><tr>
+          <td>Settled YES</td>
+          <td class="num">4</td>
+          <td class="num">50.0%</td>
+          <td class="num gain">$2.60</td>
+        </tr>
+<tr>
+          <td>Settled NO</td>
+          <td class="num">6</td>
+          <td class="num">50.0%</td>
+          <td class="num loss">-$1.79</td>
+        </tr></tbody>
+  </table>
+      </div>
+    </section>
+
+    <h2>Trades</h2>
+    <table>
+      <thead>
+        <tr><th>#</th><th>Close</th><th>Market</th><th>Side</th><th class="num">Qty</th><th class="num">P/L</th><th class="num">Fees</th><th>Outcome</th></tr>
+      </thead>
+      <tbody><tr>
+        <td>1</td>
+        <td>00:00</td>
+        <td>SOL 26JUN270300-00</td>
+        <td>YES</td>
+        <td class="num">10</td>
+        <td class="num loss">-$6.08</td>
+        <td class="num">$0.17</td>
+        <td>Settled NO</td>
+      </tr>
+<tr>
+        <td>2</td>
+        <td>00:15</td>
+        <td>ETH 26JUN270315-15</td>
+        <td>YES</td>
+        <td class="num">20</td>
+        <td class="num gain">$4.69</td>
+        <td class="num">$0.50</td>
+        <td>Settled NO</td>
+      </tr>
+<tr>
+        <td>3</td>
+        <td>00:15</td>
+        <td>BTC 26JUN270315-15</td>
+        <td>YES</td>
+        <td class="num">10</td>
+        <td class="num loss">-$1.60</td>
+        <td class="num">$0.00</td>
+        <td>Settled NO</td>
+      </tr>
+<tr>
+        <td>4</td>
+        <td>00:15</td>
+        <td>BNB 26JUN270315-15</td>
+        <td>NO</td>
+        <td class="num">10</td>
+        <td class="num gain">$3.30</td>
+        <td class="num">$0.00</td>
+        <td>Settled NO</td>
+      </tr>
+<tr>
+        <td>5</td>
+        <td>00:15</td>
+        <td>BNB 26JUN270315-15</td>
+        <td>YES</td>
+        <td class="num">10</td>
+        <td class="num loss">-$5.10</td>
+        <td class="num">$0.17</td>
+        <td>Settled NO</td>
+      </tr>
+<tr>
+        <td>6</td>
+        <td>00:45</td>
+        <td>BNB 26JUN270345-45</td>
+        <td>NO</td>
+        <td class="num">10</td>
+        <td class="num loss">-$6.10</td>
+        <td class="num">$0.17</td>
+        <td>Settled YES</td>
+      </tr>
+<tr>
+        <td>7</td>
+        <td>01:00</td>
+        <td>BTC 26JUN270400-00</td>
+        <td>NO</td>
+        <td class="num">10</td>
+        <td class="num loss">-$1.60</td>
+        <td class="num">$0.00</td>
+        <td>Settled YES</td>
+      </tr>
+<tr>
+        <td>8</td>
+        <td>01:00</td>
+        <td>BNB 26JUN270400-00</td>
+        <td>YES</td>
+        <td class="num">10</td>
+        <td class="num gain">$4.70</td>
+        <td class="num">$0.17</td>
+        <td>Settled YES</td>
+      </tr>
+<tr>
+        <td>9</td>
+        <td>01:15</td>
+        <td>BNB 26JUN270415-15</td>
+        <td>NO</td>
+        <td class="num">10</td>
+        <td class="num gain">$3.00</td>
+        <td class="num">$0.15</td>
+        <td>Settled NO</td>
+      </tr>
+<tr>
+        <td>10</td>
+        <td>02:00</td>
+        <td>BNB 26JUN270500-00</td>
+        <td>YES</td>
+        <td class="num">20</td>
+        <td class="num gain">$5.60</td>
+        <td class="num">$0.28</td>
+        <td>Settled YES</td>
+      </tr></tbody>
+    </table>
+    <p class="note">Public report is intentionally sanitized. It excludes account names, account ids, bot configuration, credentials, raw exchange responses, and per-account breakdowns.</p>
+  </main>
+</body>
+</html>
