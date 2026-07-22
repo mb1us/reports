@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-22T16:05:11.025Z",
+  "generatedAt": "2026-07-22T17:05:10.958Z",
   "window": {
-    "start": "2026-07-22T15:05:11.025Z",
-    "endExclusive": "2026-07-22T16:05:11.025Z",
+    "start": "2026-07-22T16:05:10.958Z",
+    "endExclusive": "2026-07-22T17:05:10.958Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -23,13 +23,13 @@
     "status": "healthy",
     "paperCycles": 353,
     "runtimeErrors": 0,
-    "latestCycleAgeSeconds": 3,
+    "latestCycleAgeSeconds": 2,
     "feeds": [
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 4,
+        "ageSeconds": 3,
         "fresh": true
       },
       {
@@ -43,21 +43,21 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 4,
+        "ageSeconds": 2,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 3,
+        "ageSeconds": 2,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 4,
+        "ageSeconds": 3,
         "fresh": true
       },
       {
@@ -71,14 +71,14 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 4,
+        "ageSeconds": 2,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 3,
+        "ageSeconds": 2,
         "fresh": true
       }
     ]
@@ -86,46 +86,46 @@
   "decisions": {
     "records": 706,
     "evaluationCycles": 353,
-    "noSignal": 662,
+    "noSignal": 664,
     "blocked": 41,
-    "entries": 1,
-    "exits": 0,
-    "held": 2,
+    "entries": 0,
+    "exits": 1,
+    "held": 0,
     "other": 0
   },
   "fills": {
     "count": 1,
-    "entries": 1,
-    "exits": 0,
-    "buys": 1,
-    "sells": 0,
-    "turnoverUsd": "1.94739472",
-    "executionFeesUsd": "0.002336873664"
+    "entries": 0,
+    "exits": 1,
+    "buys": 0,
+    "sells": 1,
+    "turnoverUsd": "1.93850613",
+    "executionFeesUsd": "0.002326207356"
   },
   "performance": {
     "last60Minutes": {
-      "closedTrades": 0,
-      "wins": 0,
-      "losses": 0,
-      "breakeven": 0,
-      "winRatePct": null,
-      "grossPnlUsd": "0",
-      "lifecycleFeesUsd": "0",
-      "fundingPnlUsd": "0",
-      "netPnlUsd": "0",
-      "maxDrawdownUsd": "0"
-    },
-    "allTime": {
       "closedTrades": 1,
       "wins": 0,
       "losses": 1,
       "breakeven": 0,
       "winRatePct": "0.0",
-      "grossPnlUsd": "-0.00898658",
-      "lifecycleFeesUsd": "0.004638961032",
+      "grossPnlUsd": "-0.00888859",
+      "lifecycleFeesUsd": "0.00466308102",
       "fundingPnlUsd": "0",
-      "netPnlUsd": "-0.013625541032",
-      "maxDrawdownUsd": "0.013625541032"
+      "netPnlUsd": "-0.01355167102",
+      "maxDrawdownUsd": "0.01355167102"
+    },
+    "allTime": {
+      "closedTrades": 2,
+      "wins": 0,
+      "losses": 2,
+      "breakeven": 0,
+      "winRatePct": "0.0",
+      "grossPnlUsd": "-0.01787517",
+      "lifecycleFeesUsd": "0.009302042052",
+      "fundingPnlUsd": "0",
+      "netPnlUsd": "-0.027177212052",
+      "maxDrawdownUsd": "0.027177212052"
     }
   },
   "privacy": {
