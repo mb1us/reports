@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="refresh" content="300">
+  <title>Kalshi Perps Paper Report</title>
+  <style>
+    :root { color-scheme: light; --ink:#12211a; --muted:#64706a; --line:#d9e0db; --panel:#f4f7f4; --paper:#fbfcfa; --gain:#13754a; --loss:#b23a2c; --accent:#155f52; --warn:#9a6500; }
+    * { box-sizing: border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.45; }
+    main { max-width:1120px; margin:0 auto; padding:32px 18px 52px; }
+    header { display:flex; justify-content:space-between; gap:24px; align-items:flex-end; margin-bottom:22px; }
+    h1 { margin:5px 0 2px; font-size:clamp(30px,5vw,48px); letter-spacing:-.035em; }
+    h2 { margin:34px 0 12px; font-size:20px; }
+    a { color:var(--accent); }
+    .eyebrow { color:var(--accent); font-size:12px; font-weight:800; letter-spacing:.09em; text-transform:uppercase; }
+    .sub,.note { color:var(--muted); font-size:13px; }
+    .privacy { border:1px solid #aad0c0; background:#edf8f2; border-radius:10px; padding:12px 14px; margin-bottom:18px; font-size:13px; }
+    .grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:11px; }
+    .metric { border:1px solid var(--line); background:var(--panel); border-radius:10px; padding:14px; min-height:94px; }
+    .label { color:var(--muted); font-size:12px; }
+    .value { margin-top:7px; font-size:26px; font-weight:760; font-variant-numeric:tabular-nums; }
+    .gain { color:var(--gain); } .loss { color:var(--loss); }
+    .pill { display:inline-block; border-radius:999px; padding:3px 8px; font-size:12px; font-weight:750; text-transform:uppercase; }
+    .pill.ok { color:#075a36; background:#d9f1e4; } .pill.warn { color:#7c5000; background:#fff0c7; } .pill.bad { color:#8f2a20; background:#fde0db; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    table { width:100%; border-collapse:collapse; background:white; border:1px solid var(--line); }
+    th,td { padding:10px 11px; border-bottom:1px solid var(--line); text-align:left; }
+    th { color:var(--muted); background:#eef3ef; font-size:11px; letter-spacing:.06em; text-transform:uppercase; }
+    .num { text-align:right; font-variant-numeric:tabular-nums; }
+    footer { margin-top:34px; padding-top:16px; border-top:1px solid var(--line); }
+    @media (max-width:860px) { .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (max-width:680px) { header { display:block; } .two,.grid { grid-template-columns:1fr; } table { font-size:13px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <div class="eyebrow">Simulation only · aggregate data</div>
+        <h1>Kalshi Perps Paper Report</h1>
+        <div class="sub">Rolling 60 minutes: Jul 22, 2026, 12:49 AM – Jul 22, 2026, 1:49 AM PT</div>
+      </div>
+      <div class="sub">Generated Jul 22, 2026, 1:49 AM PT<br><a href="../">All reports</a></div>
+    </header>
+
+    <div class="privacy"><strong>Privacy boundary:</strong> this page contains aggregate simulation totals only. Individual records, identifiers, positions, configuration, model evidence, and runtime messages are excluded.</div>
+
+    <section class="grid" aria-label="Current report status">
+      <div class="metric"><div class="label">Bot health</div><div class="value pill ok">healthy</div></div>
+      <div class="metric"><div class="label">Paper cycles</div><div class="value ">195</div></div>
+      <div class="metric"><div class="label">Evaluation cycles</div><div class="value ">195</div></div>
+      <div class="metric"><div class="label">Safety blocks</div><div class="value ">89</div></div>
+      <div class="metric"><div class="label">Runtime errors</div><div class="value ">0</div></div>
+    </section>
+
+    <h2>Last 60 minutes</h2>
+    <section class="grid" aria-label="Hourly paper performance">
+      <div class="metric"><div class="label">Net P/L</div><div class="value ">$0.00</div></div>
+      <div class="metric"><div class="label">Closed trades</div><div class="value ">0</div></div>
+      <div class="metric"><div class="label">Win rate</div><div class="value ">—</div></div>
+      <div class="metric"><div class="label">Execution fees</div><div class="value ">$0.00</div></div>
+      <div class="metric"><div class="label">Funding P/L</div><div class="value ">$0.00</div></div>
+    </section>
+
+    <section class="two">
+      <div>
+        <h2>Activity</h2>
+        <table>
+          <tbody>
+            <tr><th scope="row">Decision records</th><td class="num">390</td></tr>
+            <tr><th scope="row">No-signal evaluations</th><td class="num">301</td></tr>
+            <tr><th scope="row">Held positions</th><td class="num">0</td></tr>
+            <tr><th scope="row">Entries / exits</th><td class="num">0 / 0</td></tr>
+            <tr><th scope="row">Paper fills</th><td class="num">0</td></tr>
+            <tr><th scope="row">Aggregate turnover</th><td class="num">$0.00</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h2>All-time closed paper results</h2>
+        <table>
+          <tbody>
+            <tr><th scope="row">Net P/L</th><td class="num ">$0.00</td></tr>
+            <tr><th scope="row">Gross P/L</th><td class="num ">$0.00</td></tr>
+            <tr><th scope="row">Closed trades</th><td class="num">0</td></tr>
+            <tr><th scope="row">Wins / losses / flat</th><td class="num">0 / 0 / 0</td></tr>
+            <tr><th scope="row">Win rate</th><td class="num">—</td></tr>
+            <tr><th scope="row">Max closed-trade drawdown</th><td class="num">$0.00</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <h2>Public-feed recency</h2>
+    <table>
+      <thead><tr><th>Symbol</th><th>Venue</th><th>Feed</th><th class="num">Age</th><th>State</th></tr></thead>
+      <tbody><tr>
+        <td>BTC-USD</td>
+        <td>coinbase</td>
+        <td>market</td>
+        <td class="num">11s</td>
+        <td><span class="pill ok">fresh</span></td>
+      </tr>
+<tr>
+        <td>BTC-USD</td>
+        <td>kalshi</td>
+        <td>funding</td>
+        <td class="num">14s</td>
+        <td><span class="pill ok">fresh</span></td>
+      </tr>
+<tr>
+        <td>BTC-USD</td>
+        <td>kalshi</td>
+        <td>market</td>
+        <td class="num">10s</td>
+        <td><span class="pill ok">fresh</span></td>
+      </tr>
+<tr>
+        <td>BTC-USD</td>
+        <td>kalshi</td>
+        <td>orderbook</td>
+        <td class="num">9s</td>
+        <td><span class="pill ok">fresh</span></td>
+      </tr>
+<tr>
+        <td>ETH-USD</td>
+        <td>coinbase</td>
+        <td>market</td>
+        <td class="num">16s</td>
+        <td><span class="pill ok">fresh</span></td>
+      </tr>
+<tr>
+        <td>ETH-USD</td>
+        <td>kalshi</td>
+        <td>funding</td>
+        <td class="num">14s</td>
+        <td><span class="pill ok">fresh</span></td>
+      </tr>
+<tr>
+        <td>ETH-USD</td>
+        <td>kalshi</td>
+        <td>market</td>
+        <td class="num">10s</td>
+        <td><span class="pill ok">fresh</span></td>
+      </tr>
+<tr>
+        <td>ETH-USD</td>
+        <td>kalshi</td>
+        <td>orderbook</td>
+        <td class="num">9s</td>
+        <td><span class="pill ok">fresh</span></td>
+      </tr></tbody>
+    </table>
+
+    <footer class="note">
+      <div>• This report contains simulated paper activity only.</div>
+<div>• A zero-trade window is not evidence of profitability.</div>
+<div>• The REST collector is sampled and is not a lossless public trade tape.</div>
+      <div style="margin-top:8px"><a href="summary.json">Sanitized machine-readable summary</a></div>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "reportKind": "kalshi-perps-paper-hourly",
+  "simulation": true,
+  "generatedAt": "2026-07-22T08:49:04.571Z",
+  "window": {
+    "start": "2026-07-22T07:49:04.571Z",
+    "endExclusive": "2026-07-22T08:49:04.571Z",
+    "durationMinutes": 60
+  },
+  "scope": {
+    "aggregation": "cross-session",
+    "symbols": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  "safety": {
+    "orderPlacementEnabled": false,
+    "liveTradingEnabled": false
+  },
+  "health": {
+    "status": "healthy",
+    "paperCycles": 195,
+    "runtimeErrors": 0,
+    "latestCycleAgeSeconds": 9,
+    "feeds": [
+      {
+        "feed": "market",
+        "venue": "coinbase",
+        "symbol": "BTC-USD",
+        "ageSeconds": 11,
+        "fresh": true
+      },
+      {
+        "feed": "funding",
+        "venue": "kalshi",
+        "symbol": "BTC-USD",
+        "ageSeconds": 14,
+        "fresh": true
+      },
+      {
+        "feed": "market",
+        "venue": "kalshi",
+        "symbol": "BTC-USD",
+        "ageSeconds": 10,
+        "fresh": true
+      },
+      {
+        "feed": "orderbook",
+        "venue": "kalshi",
+        "symbol": "BTC-USD",
+        "ageSeconds": 9,
+        "fresh": true
+      },
+      {
+        "feed": "market",
+        "venue": "coinbase",
+        "symbol": "ETH-USD",
+        "ageSeconds": 16,
+        "fresh": true
+      },
+      {
+        "feed": "funding",
+        "venue": "kalshi",
+        "symbol": "ETH-USD",
+        "ageSeconds": 14,
+        "fresh": true
+      },
+      {
+        "feed": "market",
+        "venue": "kalshi",
+        "symbol": "ETH-USD",
+        "ageSeconds": 10,
+        "fresh": true
+      },
+      {
+        "feed": "orderbook",
+        "venue": "kalshi",
+        "symbol": "ETH-USD",
+        "ageSeconds": 9,
+        "fresh": true
+      }
+    ]
+  },
+  "decisions": {
+    "records": 390,
+    "evaluationCycles": 195,
+    "noSignal": 301,
+    "blocked": 89,
+    "entries": 0,
+    "exits": 0,
+    "held": 0,
+    "other": 0
+  },
+  "fills": {
+    "count": 0,
+    "entries": 0,
+    "exits": 0,
+    "buys": 0,
+    "sells": 0,
+    "turnoverUsd": "0",
+    "executionFeesUsd": "0"
+  },
+  "performance": {
+    "last60Minutes": {
+      "closedTrades": 0,
+      "wins": 0,
+      "losses": 0,
+      "breakeven": 0,
+      "winRatePct": null,
+      "grossPnlUsd": "0",
+      "lifecycleFeesUsd": "0",
+      "fundingPnlUsd": "0",
+      "netPnlUsd": "0",
+      "maxDrawdownUsd": "0"
+    },
+    "allTime": {
+      "closedTrades": 0,
+      "wins": 0,
+      "losses": 0,
+      "breakeven": 0,
+      "winRatePct": null,
+      "grossPnlUsd": "0",
+      "lifecycleFeesUsd": "0",
+      "fundingPnlUsd": "0",
+      "netPnlUsd": "0",
+      "maxDrawdownUsd": "0"
+    }
+  },
+  "privacy": {
+    "aggregateOnly": true,
+    "individualRecordsPublished": false
+  },
+  "caveats": [
+    "This report contains simulated paper activity only.",
+    "A zero-trade window is not evidence of profitability.",
+    "The REST collector is sampled and is not a lossless public trade tape."
+  ]
+}
