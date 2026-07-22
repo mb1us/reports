@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-22T15:05:11.188Z",
+  "generatedAt": "2026-07-22T16:05:11.025Z",
   "window": {
-    "start": "2026-07-22T14:05:11.188Z",
-    "endExclusive": "2026-07-22T15:05:11.188Z",
+    "start": "2026-07-22T15:05:11.025Z",
+    "endExclusive": "2026-07-22T16:05:11.025Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -21,9 +21,9 @@
   },
   "health": {
     "status": "healthy",
-    "paperCycles": 354,
+    "paperCycles": 353,
     "runtimeErrors": 0,
-    "latestCycleAgeSeconds": 1,
+    "latestCycleAgeSeconds": 3,
     "feeds": [
       {
         "feed": "market",
@@ -43,14 +43,14 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 2,
+        "ageSeconds": 4,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 1,
+        "ageSeconds": 3,
         "fresh": true
       },
       {
@@ -71,49 +71,49 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 2,
+        "ageSeconds": 4,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 1,
+        "ageSeconds": 3,
         "fresh": true
       }
     ]
   },
   "decisions": {
-    "records": 708,
-    "evaluationCycles": 354,
-    "noSignal": 639,
-    "blocked": 27,
-    "entries": 0,
-    "exits": 1,
-    "held": 41,
+    "records": 706,
+    "evaluationCycles": 353,
+    "noSignal": 662,
+    "blocked": 41,
+    "entries": 1,
+    "exits": 0,
+    "held": 2,
     "other": 0
   },
   "fills": {
     "count": 1,
-    "entries": 0,
-    "exits": 1,
-    "buys": 0,
-    "sells": 1,
-    "turnoverUsd": "1.92840714",
-    "executionFeesUsd": "0.002314088568"
+    "entries": 1,
+    "exits": 0,
+    "buys": 1,
+    "sells": 0,
+    "turnoverUsd": "1.94739472",
+    "executionFeesUsd": "0.002336873664"
   },
   "performance": {
     "last60Minutes": {
-      "closedTrades": 1,
+      "closedTrades": 0,
       "wins": 0,
-      "losses": 1,
+      "losses": 0,
       "breakeven": 0,
-      "winRatePct": "0.0",
-      "grossPnlUsd": "-0.00898658",
-      "lifecycleFeesUsd": "0.004638961032",
+      "winRatePct": null,
+      "grossPnlUsd": "0",
+      "lifecycleFeesUsd": "0",
       "fundingPnlUsd": "0",
-      "netPnlUsd": "-0.013625541032",
-      "maxDrawdownUsd": "0.013625541032"
+      "netPnlUsd": "0",
+      "maxDrawdownUsd": "0"
     },
     "allTime": {
       "closedTrades": 1,
