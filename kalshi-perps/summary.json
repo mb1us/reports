@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-23T21:05:11.015Z",
+  "generatedAt": "2026-07-23T22:05:10.971Z",
   "window": {
-    "start": "2026-07-23T20:05:11.015Z",
-    "endExclusive": "2026-07-23T21:05:11.015Z",
+    "start": "2026-07-23T21:05:10.971Z",
+    "endExclusive": "2026-07-23T22:05:10.971Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -20,16 +20,16 @@
     "liveTradingEnabled": false
   },
   "health": {
-    "status": "healthy",
-    "paperCycles": 353,
-    "runtimeErrors": 0,
-    "latestCycleAgeSeconds": 6,
+    "status": "degraded",
+    "paperCycles": 347,
+    "runtimeErrors": 3,
+    "latestCycleAgeSeconds": 10,
     "feeds": [
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 7,
+        "ageSeconds": 11,
         "fresh": true
       },
       {
@@ -43,21 +43,21 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 8,
+        "ageSeconds": 10,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 6,
+        "ageSeconds": 10,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 11,
         "fresh": true
       },
       {
@@ -71,23 +71,23 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 8,
+        "ageSeconds": 10,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 6,
+        "ageSeconds": 10,
         "fresh": true
       }
     ]
   },
   "decisions": {
-    "records": 706,
-    "evaluationCycles": 353,
-    "noSignal": 638,
-    "blocked": 68,
+    "records": 694,
+    "evaluationCycles": 347,
+    "noSignal": 601,
+    "blocked": 93,
     "entries": 0,
     "exits": 0,
     "held": 0,
