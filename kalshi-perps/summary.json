@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-26T20:05:10.854Z",
+  "generatedAt": "2026-07-26T21:05:10.846Z",
   "window": {
-    "start": "2026-07-26T19:05:10.854Z",
-    "endExclusive": "2026-07-26T20:05:10.854Z",
+    "start": "2026-07-26T20:05:10.846Z",
+    "endExclusive": "2026-07-26T21:05:10.846Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -21,73 +21,73 @@
   },
   "health": {
     "status": "healthy",
-    "paperCycles": 353,
+    "paperCycles": 354,
     "runtimeErrors": 0,
-    "latestCycleAgeSeconds": 10,
+    "latestCycleAgeSeconds": 2,
     "feeds": [
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 4,
         "fresh": true
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 5,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 2,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 2,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 12,
+        "ageSeconds": 7,
         "fresh": true
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 5,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 2,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 2,
         "fresh": true
       }
     ]
   },
   "decisions": {
-    "records": 706,
-    "evaluationCycles": 353,
-    "noSignal": 537,
-    "blocked": 169,
+    "records": 708,
+    "evaluationCycles": 354,
+    "noSignal": 558,
+    "blocked": 150,
     "entries": 0,
     "exits": 0,
     "held": 0,
