@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-28T15:05:09.688Z",
+  "generatedAt": "2026-07-28T16:05:11.121Z",
   "window": {
-    "start": "2026-07-28T14:05:09.688Z",
-    "endExclusive": "2026-07-28T15:05:09.688Z",
+    "start": "2026-07-28T15:05:11.121Z",
+    "endExclusive": "2026-07-28T16:05:11.121Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -20,111 +20,111 @@
     "liveTradingEnabled": false
   },
   "health": {
-    "status": "down",
-    "paperCycles": 348,
-    "runtimeErrors": 2,
-    "latestCycleAgeSeconds": 32,
+    "status": "degraded",
+    "paperCycles": 351,
+    "runtimeErrors": 1,
+    "latestCycleAgeSeconds": 9,
     "feeds": [
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 32,
-        "fresh": false
+        "ageSeconds": 11,
+        "fresh": true
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 39,
-        "fresh": false
+        "ageSeconds": 11,
+        "fresh": true
       },
       {
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 39,
-        "fresh": false
+        "ageSeconds": 10,
+        "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 39,
-        "fresh": false
+        "ageSeconds": 9,
+        "fresh": true
       },
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 40,
-        "fresh": false
+        "ageSeconds": 10,
+        "fresh": true
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 39,
-        "fresh": false
+        "ageSeconds": 11,
+        "fresh": true
       },
       {
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 39,
-        "fresh": false
+        "ageSeconds": 10,
+        "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 39,
-        "fresh": false
+        "ageSeconds": 9,
+        "fresh": true
       }
     ]
   },
   "decisions": {
-    "records": 696,
-    "evaluationCycles": 348,
-    "noSignal": 648,
-    "blocked": 34,
+    "records": 702,
+    "evaluationCycles": 351,
+    "noSignal": 429,
+    "blocked": 40,
     "entries": 1,
     "exits": 1,
-    "held": 12,
+    "held": 231,
     "other": 0
   },
   "fills": {
     "count": 2,
     "entries": 1,
     "exits": 1,
-    "buys": 2,
-    "sells": 0,
-    "turnoverUsd": "3.77047701",
-    "executionFeesUsd": "0.004524572412"
+    "buys": 1,
+    "sells": 1,
+    "turnoverUsd": "3.83750001",
+    "executionFeesUsd": "0.004605000012"
   },
   "performance": {
     "last60Minutes": {
       "closedTrades": 1,
-      "wins": 0,
-      "losses": 1,
+      "wins": 1,
+      "losses": 0,
       "breakeven": 0,
-      "winRatePct": "0.0",
-      "grossPnlUsd": "-0.02237478",
-      "lifecycleFeesUsd": "0.00449736264",
+      "winRatePct": "100.0",
+      "grossPnlUsd": "0.03311961",
+      "lifecycleFeesUsd": "0.00456467598",
       "fundingPnlUsd": "0",
-      "netPnlUsd": "-0.02687214264",
-      "maxDrawdownUsd": "0.02687214264"
+      "netPnlUsd": "0.02855493402",
+      "maxDrawdownUsd": "0"
     },
     "allTime": {
-      "closedTrades": 15,
-      "wins": 3,
+      "closedTrades": 16,
+      "wins": 4,
       "losses": 12,
       "breakeven": 0,
-      "winRatePct": "20.0",
-      "grossPnlUsd": "-0.04193873",
-      "lifecycleFeesUsd": "0.10126476402",
+      "winRatePct": "25.0",
+      "grossPnlUsd": "-0.00881912",
+      "lifecycleFeesUsd": "0.10582944",
       "fundingPnlUsd": "0",
-      "netPnlUsd": "-0.14320349402",
+      "netPnlUsd": "-0.11464856",
       "maxDrawdownUsd": "0.1433894878"
     }
   },
