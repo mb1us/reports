@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-28T13:05:10.839Z",
+  "generatedAt": "2026-07-28T14:05:10.825Z",
   "window": {
-    "start": "2026-07-28T12:05:10.839Z",
-    "endExclusive": "2026-07-28T13:05:10.839Z",
+    "start": "2026-07-28T13:05:10.825Z",
+    "endExclusive": "2026-07-28T14:05:10.825Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -23,13 +23,13 @@
     "status": "healthy",
     "paperCycles": 353,
     "runtimeErrors": 0,
-    "latestCycleAgeSeconds": 7,
+    "latestCycleAgeSeconds": 9,
     "feeds": [
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 8,
+        "ageSeconds": 11,
         "fresh": true
       },
       {
@@ -43,21 +43,21 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 8,
+        "ageSeconds": 9,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 7,
+        "ageSeconds": 9,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 9,
+        "ageSeconds": 11,
         "fresh": true
       },
       {
@@ -71,14 +71,14 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 8,
+        "ageSeconds": 9,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 7,
+        "ageSeconds": 9,
         "fresh": true
       }
     ]
@@ -86,21 +86,21 @@
   "decisions": {
     "records": 706,
     "evaluationCycles": 353,
-    "noSignal": 575,
-    "blocked": 131,
-    "entries": 0,
+    "noSignal": 635,
+    "blocked": 55,
+    "entries": 1,
     "exits": 0,
-    "held": 0,
+    "held": 15,
     "other": 0
   },
   "fills": {
-    "count": 0,
-    "entries": 0,
+    "count": 1,
+    "entries": 1,
     "exits": 0,
     "buys": 0,
-    "sells": 0,
-    "turnoverUsd": "0",
-    "executionFeesUsd": "0"
+    "sells": 1,
+    "turnoverUsd": "1.86271371",
+    "executionFeesUsd": "0.002235256452"
   },
   "performance": {
     "last60Minutes": {
