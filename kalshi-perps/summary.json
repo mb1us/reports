@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-28T14:05:10.825Z",
+  "generatedAt": "2026-07-28T15:05:09.688Z",
   "window": {
-    "start": "2026-07-28T13:05:10.825Z",
-    "endExclusive": "2026-07-28T14:05:10.825Z",
+    "start": "2026-07-28T14:05:09.688Z",
+    "endExclusive": "2026-07-28T15:05:09.688Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -20,111 +20,111 @@
     "liveTradingEnabled": false
   },
   "health": {
-    "status": "healthy",
-    "paperCycles": 353,
-    "runtimeErrors": 0,
-    "latestCycleAgeSeconds": 9,
+    "status": "down",
+    "paperCycles": 348,
+    "runtimeErrors": 2,
+    "latestCycleAgeSeconds": 32,
     "feeds": [
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 11,
-        "fresh": true
+        "ageSeconds": 32,
+        "fresh": false
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 10,
-        "fresh": true
+        "ageSeconds": 39,
+        "fresh": false
       },
       {
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 9,
-        "fresh": true
+        "ageSeconds": 39,
+        "fresh": false
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 9,
-        "fresh": true
+        "ageSeconds": 39,
+        "fresh": false
       },
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 11,
-        "fresh": true
+        "ageSeconds": 40,
+        "fresh": false
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 10,
-        "fresh": true
+        "ageSeconds": 39,
+        "fresh": false
       },
       {
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 9,
-        "fresh": true
+        "ageSeconds": 39,
+        "fresh": false
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 9,
-        "fresh": true
+        "ageSeconds": 39,
+        "fresh": false
       }
     ]
   },
   "decisions": {
-    "records": 706,
-    "evaluationCycles": 353,
-    "noSignal": 635,
-    "blocked": 55,
+    "records": 696,
+    "evaluationCycles": 348,
+    "noSignal": 648,
+    "blocked": 34,
     "entries": 1,
-    "exits": 0,
-    "held": 15,
+    "exits": 1,
+    "held": 12,
     "other": 0
   },
   "fills": {
-    "count": 1,
+    "count": 2,
     "entries": 1,
-    "exits": 0,
-    "buys": 0,
-    "sells": 1,
-    "turnoverUsd": "1.86271371",
-    "executionFeesUsd": "0.002235256452"
+    "exits": 1,
+    "buys": 2,
+    "sells": 0,
+    "turnoverUsd": "3.77047701",
+    "executionFeesUsd": "0.004524572412"
   },
   "performance": {
     "last60Minutes": {
-      "closedTrades": 0,
+      "closedTrades": 1,
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "breakeven": 0,
-      "winRatePct": null,
-      "grossPnlUsd": "0",
-      "lifecycleFeesUsd": "0",
+      "winRatePct": "0.0",
+      "grossPnlUsd": "-0.02237478",
+      "lifecycleFeesUsd": "0.00449736264",
       "fundingPnlUsd": "0",
-      "netPnlUsd": "0",
-      "maxDrawdownUsd": "0"
+      "netPnlUsd": "-0.02687214264",
+      "maxDrawdownUsd": "0.02687214264"
     },
     "allTime": {
-      "closedTrades": 14,
+      "closedTrades": 15,
       "wins": 3,
-      "losses": 11,
+      "losses": 12,
       "breakeven": 0,
-      "winRatePct": "21.4",
-      "grossPnlUsd": "-0.01956395",
-      "lifecycleFeesUsd": "0.09676740138",
+      "winRatePct": "20.0",
+      "grossPnlUsd": "-0.04193873",
+      "lifecycleFeesUsd": "0.10126476402",
       "fundingPnlUsd": "0",
-      "netPnlUsd": "-0.11633135138",
+      "netPnlUsd": "-0.14320349402",
       "maxDrawdownUsd": "0.1433894878"
     }
   },
