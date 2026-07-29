@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-29T01:05:10.866Z",
+  "generatedAt": "2026-07-29T02:05:10.873Z",
   "window": {
-    "start": "2026-07-29T00:05:10.866Z",
-    "endExclusive": "2026-07-29T01:05:10.866Z",
+    "start": "2026-07-29T01:05:10.873Z",
+    "endExclusive": "2026-07-29T02:05:10.873Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -29,7 +29,7 @@
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 8,
+        "ageSeconds": 6,
         "fresh": true
       },
       {
@@ -57,7 +57,7 @@
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 7,
+        "ageSeconds": 6,
         "fresh": true
       },
       {
@@ -86,8 +86,8 @@
   "decisions": {
     "records": 706,
     "evaluationCycles": 353,
-    "noSignal": 630,
-    "blocked": 76,
+    "noSignal": 631,
+    "blocked": 75,
     "entries": 0,
     "exits": 0,
     "held": 0,
