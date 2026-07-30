@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-29",
   "timezone": "America/Los_Angeles",
-  "generatedAt": 1785402772876,
-  "startMs": 1785394800000,
-  "endMs": 1785481200000,
-  "trades": 0,
-  "wins": 0,
-  "losses": 0,
-  "winRate": null,
-  "pnl": 0,
-  "best": null,
-  "worst": null,
-  "ordersPlaced": 1
+  "generatedAt": 1785402804573,
+  "startMs": 1785308400000,
+  "endMs": 1785394800000,
+  "trades": 91,
+  "wins": 54,
+  "losses": 37,
+  "winRate": 0.5934065934065934,
+  "pnl": 17.94,
+  "best": 8.88,
+  "worst": -12.13,
+  "ordersPlaced": 98
 }
