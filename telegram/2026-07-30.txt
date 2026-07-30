@@ -1,7 +1,36 @@
 Daily trading report - 2026-07-30
-P/L: $0.00 | Win rate: - | Events: 0
-Wins/Losses: 0/0 | Orders placed: 1
+P/L: -$48.12 | Win rate: 28.6% | Events: 28
+Wins/Losses: 8/20 | Orders placed: 28
+Best: +$6.40 | Worst: -$5.20
 
-No settled events for this day.
+Events:
+1. 04:30:16 Win +$2.31
+2. 05:00:18 Win +$5.40
+3. 06:45:18 Loss -$4.69
+4. 07:00:21 Win +$3.20
+5. 07:30:27 Loss -$4.83
+6. 08:00:16 Loss -$4.88
+7. 08:05:57 Win +$2.31
+8. 08:30:17 Loss -$5.20
+9. 09:00:12 Loss -$4.30
+10. 09:15:20 Win +$2.80
+11. 09:30:23 Win +$3.04
+12. 10:15:19 Loss -$5.04
+13. 10:45:15 Win +$6.40
+14. 11:00:22 Loss -$4.60
+15. 11:15:21 Loss -$4.80
+16. 11:30:25 Loss -$3.84
+17. 11:45:19 Loss -$1.80
+18. 12:00:17 Loss -$3.50
+19. 12:15:20 Loss -$4.10
+20. 12:30:22 Win +$5.30
+21. 12:45:17 Loss -$1.90
+22. 13:00:16 Loss -$5.00
+23. 13:15:21 Loss -$3.10
+24. 13:30:11 Loss -$1.90
+25. 13:45:22 Loss -$4.80
+26. 14:00:12 Loss -$4.90
+27. 14:15:17 Loss -$3.60
+28. 14:30:27 Loss -$2.10
 
 Sanitized public digest: no account names, account ids, tickers, sides, entry kinds, bot config, credentials, or raw exchange responses.
