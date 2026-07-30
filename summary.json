@@ -1,18 +1,15 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-30",
   "timezone": "America/Los_Angeles",
-  "generatedAt": 1784099585033,
-  "startMs": 1784012400000,
-  "endMs": 1784098800000,
+  "generatedAt": 1785402772876,
+  "startMs": 1785394800000,
+  "endMs": 1785481200000,
   "trades": 0,
   "wins": 0,
   "losses": 0,
-  "flats": 0,
   "winRate": null,
   "pnl": 0,
-  "fees": 0,
   "best": null,
   "worst": null,
-  "volume": 0,
-  "markets": 0
+  "ordersPlaced": 1
 }
