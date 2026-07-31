@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-31T18:05:10.981Z",
+  "generatedAt": "2026-07-31T19:05:11.153Z",
   "window": {
-    "start": "2026-07-31T17:05:10.981Z",
-    "endExclusive": "2026-07-31T18:05:10.981Z",
+    "start": "2026-07-31T18:05:11.153Z",
+    "endExclusive": "2026-07-31T19:05:11.153Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -20,16 +20,16 @@
     "liveTradingEnabled": false
   },
   "health": {
-    "status": "healthy",
-    "paperCycles": 352,
-    "runtimeErrors": 0,
-    "latestCycleAgeSeconds": 11,
+    "status": "degraded",
+    "paperCycles": 337,
+    "runtimeErrors": 1,
+    "latestCycleAgeSeconds": 8,
     "feeds": [
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 12,
+        "ageSeconds": 9,
         "fresh": true
       },
       {
@@ -43,21 +43,21 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 11,
+        "ageSeconds": 9,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 11,
+        "ageSeconds": 8,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 13,
+        "ageSeconds": 9,
         "fresh": true
       },
       {
@@ -71,23 +71,23 @@
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 11,
+        "ageSeconds": 9,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 11,
+        "ageSeconds": 8,
         "fresh": true
       }
     ]
   },
   "decisions": {
-    "records": 704,
-    "evaluationCycles": 352,
-    "noSignal": 660,
-    "blocked": 44,
+    "records": 674,
+    "evaluationCycles": 337,
+    "noSignal": 599,
+    "blocked": 75,
     "entries": 0,
     "exits": 0,
     "held": 0,
