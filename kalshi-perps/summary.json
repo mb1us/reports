@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-07-31T02:05:06.226Z",
+  "generatedAt": "2026-07-31T03:05:10.892Z",
   "window": {
-    "start": "2026-07-31T01:05:06.226Z",
-    "endExclusive": "2026-07-31T02:05:06.226Z",
+    "start": "2026-07-31T02:05:10.892Z",
+    "endExclusive": "2026-07-31T03:05:10.892Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -20,87 +20,87 @@
     "liveTradingEnabled": false
   },
   "health": {
-    "status": "degraded",
-    "paperCycles": 344,
-    "runtimeErrors": 2,
-    "latestCycleAgeSeconds": 9,
+    "status": "healthy",
+    "paperCycles": 353,
+    "runtimeErrors": 0,
+    "latestCycleAgeSeconds": 1,
     "feeds": [
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 11,
+        "ageSeconds": 3,
         "fresh": true
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 12,
+        "ageSeconds": 1,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 1,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 9,
+        "ageSeconds": 1,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "coinbase",
         "symbol": "ETH-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 3,
         "fresh": true
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 12,
+        "ageSeconds": 1,
         "fresh": true
       },
       {
         "feed": "market",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 10,
+        "ageSeconds": 1,
         "fresh": true
       },
       {
         "feed": "orderbook",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 9,
+        "ageSeconds": 1,
         "fresh": true
       }
     ]
   },
   "decisions": {
-    "records": 688,
-    "evaluationCycles": 344,
-    "noSignal": 637,
-    "blocked": 51,
-    "entries": 0,
+    "records": 706,
+    "evaluationCycles": 353,
+    "noSignal": 589,
+    "blocked": 88,
+    "entries": 2,
     "exits": 0,
-    "held": 0,
+    "held": 27,
     "other": 0
   },
   "fills": {
-    "count": 0,
-    "entries": 0,
+    "count": 2,
+    "entries": 2,
     "exits": 0,
     "buys": 0,
-    "sells": 0,
-    "turnoverUsd": "0",
-    "executionFeesUsd": "0"
+    "sells": 2,
+    "turnoverUsd": "8.35256466",
+    "executionFeesUsd": "0.010023077592"
   },
   "performance": {
     "last60Minutes": {
