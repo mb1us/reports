@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "reportKind": "kalshi-perps-paper-hourly",
   "simulation": true,
-  "generatedAt": "2026-08-01T03:05:10.715Z",
+  "generatedAt": "2026-08-01T04:05:06.774Z",
   "window": {
-    "start": "2026-08-01T02:05:10.715Z",
-    "endExclusive": "2026-08-01T03:05:10.715Z",
+    "start": "2026-08-01T03:05:06.774Z",
+    "endExclusive": "2026-08-01T04:05:06.774Z",
     "durationMinutes": 60
   },
   "scope": {
@@ -21,7 +21,7 @@
   },
   "health": {
     "status": "healthy",
-    "paperCycles": 353,
+    "paperCycles": 352,
     "runtimeErrors": 0,
     "latestCycleAgeSeconds": 10,
     "feeds": [
@@ -29,14 +29,14 @@
         "feed": "market",
         "venue": "coinbase",
         "symbol": "BTC-USD",
-        "ageSeconds": 11,
+        "ageSeconds": 12,
         "fresh": true
       },
       {
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "BTC-USD",
-        "ageSeconds": 11,
+        "ageSeconds": 12,
         "fresh": true
       },
       {
@@ -64,7 +64,7 @@
         "feed": "funding",
         "venue": "kalshi",
         "symbol": "ETH-USD",
-        "ageSeconds": 11,
+        "ageSeconds": 12,
         "fresh": true
       },
       {
@@ -84,10 +84,10 @@
     ]
   },
   "decisions": {
-    "records": 706,
-    "evaluationCycles": 353,
-    "noSignal": 588,
-    "blocked": 118,
+    "records": 704,
+    "evaluationCycles": 352,
+    "noSignal": 573,
+    "blocked": 131,
     "entries": 0,
     "exits": 0,
     "held": 0,
