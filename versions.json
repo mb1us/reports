@@ -152,11 +152,11 @@
   {
     "build": "ae1099b",
     "firstTradeAt": 1785650410887,
-    "lastTradeAt": 1785654917862,
-    "trades": 15,
-    "wins": 8,
-    "losses": 7,
-    "pnl": -5.02,
-    "winRate": 0.5333333333333333
+    "lastTradeAt": 1785741318197,
+    "trades": 246,
+    "wins": 136,
+    "losses": 110,
+    "pnl": 119.45,
+    "winRate": 0.5528455284552846
   }
 ]
