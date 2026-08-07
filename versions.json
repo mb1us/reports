@@ -1,15 +1,5 @@
 [
   {
-    "build": "e7f1c5a",
-    "firstTradeAt": 1785447915745,
-    "lastTradeAt": 1785447915745,
-    "trades": 1,
-    "wins": 0,
-    "losses": 1,
-    "pnl": -5,
-    "winRate": 0
-  },
-  {
     "build": "91ef977",
     "firstTradeAt": 1785448824272,
     "lastTradeAt": 1785448824272,
@@ -17,16 +7,6 @@
     "wins": 1,
     "losses": 0,
     "pnl": 1.5,
-    "winRate": 1
-  },
-  {
-    "build": "ed93236",
-    "firstTradeAt": 1785453316731,
-    "lastTradeAt": 1785453316731,
-    "trades": 1,
-    "wins": 1,
-    "losses": 0,
-    "pnl": 3.12,
     "winRate": 1
   },
   {
@@ -40,194 +20,134 @@
     "winRate": 0
   },
   {
-    "build": "6a38cbb",
-    "firstTradeAt": 1785456922745,
-    "lastTradeAt": 1785456923517,
-    "trades": 4,
-    "wins": 4,
-    "losses": 0,
-    "pnl": 14.76,
-    "winRate": 1
-  },
-  {
-    "build": "fcf46e7",
-    "firstTradeAt": 1785458723089,
-    "lastTradeAt": 1785458724011,
-    "trades": 5,
+    "build": "0213ba8",
+    "firstTradeAt": 1785459616170,
+    "lastTradeAt": 1785461416948,
+    "trades": 10,
     "wins": 0,
-    "losses": 5,
-    "pnl": -24,
+    "losses": 10,
+    "pnl": -19.65,
     "winRate": 0
   },
   {
-    "build": "0213ba8",
-    "firstTradeAt": 1785459616170,
-    "lastTradeAt": 1785462323556,
-    "trades": 15,
-    "wins": 5,
-    "losses": 10,
-    "pnl": -15.95,
-    "winRate": 0.3333333333333333
-  },
-  {
-    "build": "fafc52d",
-    "firstTradeAt": 1785464117701,
-    "lastTradeAt": 1785464118825,
-    "trades": 2,
-    "wins": 2,
-    "losses": 0,
-    "pnl": 5.6,
-    "winRate": 1
-  },
-  {
     "build": "f6e390e",
-    "firstTradeAt": 1785466817505,
-    "lastTradeAt": 1785490218660,
-    "trades": 26,
-    "wins": 12,
-    "losses": 14,
-    "pnl": -24.64,
-    "winRate": 0.46153846153846156
+    "firstTradeAt": 1785475818430,
+    "lastTradeAt": 1785480322880,
+    "trades": 4,
+    "wins": 0,
+    "losses": 4,
+    "pnl": -14.46,
+    "winRate": 0
   },
   {
     "build": "80141aa",
-    "firstTradeAt": 1785492922295,
-    "lastTradeAt": 1785497424562,
-    "trades": 9,
-    "wins": 3,
-    "losses": 6,
-    "pnl": -20.49,
+    "firstTradeAt": 1785494723201,
+    "lastTradeAt": 1785496518310,
+    "trades": 3,
+    "wins": 1,
+    "losses": 2,
+    "pnl": -7.59,
     "winRate": 0.3333333333333333
   },
   {
     "build": "6dd3eb3",
-    "firstTradeAt": 1785498312184,
-    "lastTradeAt": 1785515412960,
-    "trades": 25,
-    "wins": 13,
-    "losses": 12,
-    "pnl": -10.47,
-    "winRate": 0.52
+    "firstTradeAt": 1785501017687,
+    "lastTradeAt": 1785510917910,
+    "trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "pnl": 5.18,
+    "winRate": 0.6666666666666666
   },
   {
     "build": "bb7216b",
-    "firstTradeAt": 1785517217762,
-    "lastTradeAt": 1785523522624,
-    "trades": 20,
-    "wins": 13,
-    "losses": 7,
-    "pnl": 11.05,
-    "winRate": 0.65
+    "firstTradeAt": 1785518116214,
+    "lastTradeAt": 1785523521566,
+    "trades": 8,
+    "wins": 6,
+    "losses": 2,
+    "pnl": 14.51,
+    "winRate": 0.75
   },
   {
     "build": "caba07c",
-    "firstTradeAt": 1785524423586,
-    "lastTradeAt": 1785547823868,
-    "trades": 57,
-    "wins": 29,
-    "losses": 28,
-    "pnl": 15.59,
-    "winRate": 0.5087719298245614
+    "firstTradeAt": 1785528917385,
+    "lastTradeAt": 1785546012064,
+    "trades": 20,
+    "wins": 9,
+    "losses": 11,
+    "pnl": 22.75,
+    "winRate": 0.45
   },
   {
     "build": "7340820",
-    "firstTradeAt": 1785548723362,
+    "firstTradeAt": 1785549610961,
     "lastTradeAt": 1785630619126,
-    "trades": 233,
-    "wins": 127,
-    "losses": 106,
-    "pnl": -89.52,
-    "winRate": 0.5450643776824035
+    "trades": 76,
+    "wins": 30,
+    "losses": 46,
+    "pnl": -13.74,
+    "winRate": 0.39473684210526316
   },
   {
     "build": "fcbe5db",
     "firstTradeAt": 1785631510961,
-    "lastTradeAt": 1785648618014,
-    "trades": 42,
-    "wins": 19,
-    "losses": 23,
-    "pnl": -34.01,
-    "winRate": 0.4523809523809524
+    "lastTradeAt": 1785647717915,
+    "trades": 17,
+    "wins": 1,
+    "losses": 16,
+    "pnl": -45.4,
+    "winRate": 0.058823529411764705
   },
   {
     "build": "ae1099b",
-    "firstTradeAt": 1785650410887,
+    "firstTradeAt": 1785653122985,
     "lastTradeAt": 1785778217277,
-    "trades": 332,
-    "wins": 175,
-    "losses": 157,
-    "pnl": 46.47,
-    "winRate": 0.5271084337349398
+    "trades": 110,
+    "wins": 33,
+    "losses": 77,
+    "pnl": -4.51,
+    "winRate": 0.3
   },
   {
     "build": "d4c562f",
-    "firstTradeAt": 1785779110934,
-    "lastTradeAt": 1785797100097,
-    "trades": 60,
-    "wins": 36,
-    "losses": 24,
-    "pnl": -15.62,
-    "winRate": 0.6
-  },
-  {
-    "build": "f627734",
-    "firstTradeAt": 1785797110882,
-    "lastTradeAt": 1785800723560,
-    "trades": 10,
-    "wins": 10,
-    "losses": 0,
-    "pnl": 25.38,
-    "winRate": 1
+    "firstTradeAt": 1785780922123,
+    "lastTradeAt": 1785797100000,
+    "trades": 15,
+    "wins": 4,
+    "losses": 11,
+    "pnl": -23.39,
+    "winRate": 0.26666666666666666
   },
   {
     "build": "1a4dbaf",
-    "firstTradeAt": 1785801610932,
+    "firstTradeAt": 1785804322301,
     "lastTradeAt": 1785804322301,
-    "trades": 16,
-    "wins": 12,
-    "losses": 4,
-    "pnl": -21.31,
-    "winRate": 0.75
-  },
-  {
-    "build": "27fa211",
-    "firstTradeAt": 1785805215995,
-    "lastTradeAt": 1785809719479,
-    "trades": 7,
-    "wins": 3,
-    "losses": 4,
-    "pnl": -10.08,
-    "winRate": 0.42857142857142855
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "pnl": 0.6,
+    "winRate": 1
   },
   {
     "build": "5a251bd",
-    "firstTradeAt": 1785810600242,
+    "firstTradeAt": 1785812410889,
     "lastTradeAt": 1785834917441,
-    "trades": 30,
-    "wins": 14,
-    "losses": 16,
-    "pnl": -24.89,
-    "winRate": 0.4666666666666667
+    "trades": 13,
+    "wins": 1,
+    "losses": 12,
+    "pnl": -33.44,
+    "winRate": 0.07692307692307693
   },
   {
     "build": "c46306d",
-    "firstTradeAt": 1785836716691,
-    "lastTradeAt": 1785924017958,
-    "trades": 93,
-    "wins": 65,
-    "losses": 28,
-    "pnl": -4.02,
-    "winRate": 0.6989247311827957
-  },
-  {
-    "build": "54ba352",
-    "firstTradeAt": 1785926710877,
-    "lastTradeAt": 1785926716354,
-    "trades": 2,
-    "wins": 2,
-    "losses": 0,
-    "pnl": 9.63,
-    "winRate": 1
+    "firstTradeAt": 1785843923493,
+    "lastTradeAt": 1785919518030,
+    "trades": 20,
+    "wins": 9,
+    "losses": 11,
+    "pnl": 40.98,
+    "winRate": 0.45
   },
   {
     "build": "a97dd21",
@@ -243,30 +163,30 @@
     "build": "a126e4a",
     "firstTradeAt": 1785930312239,
     "lastTradeAt": 1785944723894,
-    "trades": 44,
-    "wins": 25,
-    "losses": 19,
-    "pnl": -21.53,
-    "winRate": 0.5681818181818182
+    "trades": 31,
+    "wins": 14,
+    "losses": 17,
+    "pnl": -21.06,
+    "winRate": 0.45161290322580644
   },
   {
     "build": "a5096d8",
     "firstTradeAt": 1785945611405,
-    "lastTradeAt": 1785986110880,
-    "trades": 89,
-    "wins": 65,
-    "losses": 24,
-    "pnl": 63.09,
-    "winRate": 0.7303370786516854
+    "lastTradeAt": 1785977122541,
+    "trades": 43,
+    "wins": 25,
+    "losses": 18,
+    "pnl": 20.72,
+    "winRate": 0.5813953488372093
   },
   {
     "build": "67671ab",
     "firstTradeAt": 1785990621094,
-    "lastTradeAt": 1785996022487,
-    "trades": 6,
-    "wins": 4,
-    "losses": 2,
-    "pnl": -12.65,
-    "winRate": 0.6666666666666666
+    "lastTradeAt": 1786086911086,
+    "trades": 13,
+    "wins": 10,
+    "losses": 3,
+    "pnl": -1.85,
+    "winRate": 0.7692307692307693
   }
 ]
