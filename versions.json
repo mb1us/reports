@@ -232,11 +232,11 @@
   {
     "build": "c27092a",
     "firstTradeAt": 1786168811805,
-    "lastTradeAt": 1786432512309,
-    "trades": 596,
-    "wins": 518,
-    "losses": 78,
-    "pnl": 245.1,
-    "winRate": 0.8691275167785235
+    "lastTradeAt": 1786518918872,
+    "trades": 793,
+    "wins": 670,
+    "losses": 123,
+    "pnl": 177.73,
+    "winRate": 0.8448928121059268
   }
 ]
