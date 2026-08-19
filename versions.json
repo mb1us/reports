@@ -372,11 +372,11 @@
   {
     "build": "768f9ea",
     "firstTradeAt": 1787005684366,
-    "lastTradeAt": 1787035314332,
-    "trades": 85,
-    "wins": 69,
-    "losses": 16,
-    "pnl": 57.75,
-    "winRate": 0.8117647058823529
+    "lastTradeAt": 1787119741953,
+    "trades": 230,
+    "wins": 189,
+    "losses": 41,
+    "pnl": 131.56,
+    "winRate": 0.8217391304347826
   }
 ]
