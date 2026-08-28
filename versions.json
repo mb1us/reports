@@ -512,11 +512,11 @@
   {
     "build": "06d1a9f",
     "firstTradeAt": 1787395507047,
-    "lastTradeAt": 1787813117055,
-    "trades": 914,
-    "wins": 584,
-    "losses": 330,
-    "pnl": -74.81,
-    "winRate": 0.6389496717724289
+    "lastTradeAt": 1787901311065,
+    "trades": 1029,
+    "wins": 651,
+    "losses": 378,
+    "pnl": -265.53,
+    "winRate": 0.6326530612244898
   }
 ]
